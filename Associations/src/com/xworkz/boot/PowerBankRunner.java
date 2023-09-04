@@ -1,5 +1,5 @@
 package com.xworkz.boot;
-import com.xworkz.app.*;
+import com.xworkz.app.PowerBank;
 public class PowerBankRunner {
 
 	public static void main(String[] args) {
