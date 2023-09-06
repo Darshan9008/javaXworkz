@@ -1,5 +1,7 @@
 package com.xworkz.Grocery.app;
 
+import com.xworkz.Grocery.app.service.GroceryServiceImpl;
+
 public class GroceryRepositoryImpl implements GroceryRepository {
 	
 	String[] groceries=new String[TOTAL_ITEMS];
@@ -14,6 +16,9 @@ public class GroceryRepositoryImpl implements GroceryRepository {
 			
 			this.groceries[position]=grocery;
 			System.out.println("elements added "+grocery+"  at the position  "+position);
+			
+			
+			
 			this.position++;
 			
 		}
