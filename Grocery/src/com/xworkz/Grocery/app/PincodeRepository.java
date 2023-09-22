@@ -8,7 +8,7 @@ public interface PincodeRepository {
 	public void store(int pincode);
 	
 	
-	default boolean isEmpty(int pincode) {
+	default boolean isExist(int pincode) {
 		return false;
 	}
 	

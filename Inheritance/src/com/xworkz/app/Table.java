@@ -2,7 +2,7 @@ package com.xworkz.app;
 
 public class Table {
 	
-	public static int price;
+	public static int price=25;
 	
 	public Table(int price)
 	{

@@ -8,6 +8,8 @@ public class Chair extends Table {
 		super(price);
 		this.madeOf=madeOf;
 		
+		System.out.println(this.madeOf);
+		System.out.println(super.price);
 	}
 	
 	

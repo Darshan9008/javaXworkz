@@ -14,9 +14,7 @@ public class PincodeRunner {
 		pincodeService.validateAndSave(234567);
 		pincodeService.validateAndSave(234567);
 		pincodeService.validateAndSave(123456);
-
-		
-		
+		pincodeService.validateAndSave(577301);
 		
 		
 	}

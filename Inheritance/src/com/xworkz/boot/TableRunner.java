@@ -16,6 +16,8 @@ public class TableRunner {
 	    chair.Sit();
 	    chair1.noOfLegs();
 	    
+	    Table table1=new Chair("darshan");
+	    
 	    
 	    
 	    Home h1=new Home(15);
