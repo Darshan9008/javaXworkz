@@ -75,6 +75,129 @@ public class CountryDTO implements Serializable {
 				+ ", nationalBird=" + nationalBird + ", nationalSoprt=" + nationalSoprt + ", primeMinisterName="
 				+ primeMinisterName + "]";
 	}
+
+
+	public int getId() {
+		return id;
+	}
+
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getCapitalCity() {
+		return capitalCity;
+	}
+
+
+	public void setCapitalCity(String capitalCity) {
+		this.capitalCity = capitalCity;
+	}
+
+
+	public double getPopulation() {
+		return population;
+	}
+
+
+	public void setPopulation(double population) {
+		this.population = population;
+	}
+
+
+	public boolean isIndependent() {
+		return independent;
+	}
+
+
+	public void setIndependent(boolean independent) {
+		this.independent = independent;
+	}
+
+
+	public LocalDate getIndependenceDate() {
+		return independenceDate;
+	}
+
+
+	public void setIndependenceDate(LocalDate independenceDate) {
+		this.independenceDate = independenceDate;
+	}
+
+
+	public int getNoOfStates() {
+		return noOfStates;
+	}
+
+
+	public void setNoOfStates(int noOfStates) {
+		this.noOfStates = noOfStates;
+	}
+
+
+	public String getPrimaryReligion() {
+		return primaryReligion;
+	}
+
+
+	public void setPrimaryReligion(String primaryReligion) {
+		this.primaryReligion = primaryReligion;
+	}
+
+
+	public String getNationalAnimal() {
+		return nationalAnimal;
+	}
+
+
+	public void setNationalAnimal(String nationalAnimal) {
+		this.nationalAnimal = nationalAnimal;
+	}
+
+
+	public String getNationalBird() {
+		return nationalBird;
+	}
+
+
+	public void setNationalBird(String nationalBird) {
+		this.nationalBird = nationalBird;
+	}
+
+
+	public String getNationalSoprt() {
+		return nationalSoprt;
+	}
+
+
+	public void setNationalSoprt(String nationalSoprt) {
+		this.nationalSoprt = nationalSoprt;
+	}
+
+
+	public String getPrimeMinisterName() {
+		return primeMinisterName;
+	}
+
+
+	public void setPrimeMinisterName(String primeMinisterName) {
+		this.primeMinisterName = primeMinisterName;
+	}
+	
+	
+	
 	
 	
 	
