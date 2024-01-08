@@ -8,9 +8,8 @@ public class LaptopModels {
 
 	public static void main(String[] args) {
 
-		
-		Collection<String> laptop=new ArrayList<String>();
-		
+		Collection<String> laptop = new ArrayList<String>();
+
 		laptop.add("azus");
 		laptop.add("lenovo");
 		laptop.add("dell");
@@ -34,10 +33,11 @@ public class LaptopModels {
 		laptop.add("benz");
 		laptop.add("volvo");
 
-		
-Iterator<String> itr=laptop.iterator();
-		
-		while(itr.hasNext()) {
+		System.out.println(laptop.size());
+
+		Iterator<String> itr = laptop.iterator();
+
+		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
 

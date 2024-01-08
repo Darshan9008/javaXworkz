@@ -609,17 +609,23 @@ public class AlcoholDTORunner {
 		alcohol.add(dto292);
 		alcohol.add(dto293);
 		alcohol.add(dto294);
-		alcohol.add(dto295);
-		alcohol.add(dto296);
-		alcohol.add(dto297);
-		alcohol.add(dto298);
-		alcohol.add(dto299);
-		alcohol.add(dto300);
+		
+		Collection<AlcoholDTO> alcohol1=new ArrayList();
+		
+		alcohol1.add(dto295);
+		alcohol1.add(dto296);
+		alcohol1.add(dto297);
+		alcohol1.add(dto298);
+		alcohol1.add(dto299);
+		alcohol1.add(dto300);
+		
+		
+		
 		System.out.println("Size of collection : "+alcohol.size());
 		int count=0;
 		int count1=0;
 		for(AlcoholDTO alchols:alcohol) {
-			if(alchols.getAlcoholName().contains("Tom")) {
+			if(alchols.getAlcoholName().contains("Mar")) {
 				System.out.println("Alcohol names :"+alchols.getAlcoholName());
 				count++;
 			}
@@ -627,16 +633,19 @@ public class AlcoholDTORunner {
 		}
 		System.out.println("Count : "+count);
 		
-		boolean ref=alcohol.containsAll(alcohol);
-		System.out.println("collection contains alcohol :"+ref);
+		Boolean ref2=alcohol.containsAll(alcohol1);
+		System.out.println(ref2);
+		
+		
+		Boolean ref3=alcohol.removeAll(alcohol1);
+		System.out.println(ref3);
+		
 		
 		boolean ref1=alcohol.remove(dto285);
 		System.out.println("remove one element in collection :"+ref1);
 		System.out.println("Size of collection : "+alcohol.size());
 		
-		boolean removes=alcohol.removeAll(alcohol);
-		System.out.println("Remove all :"+removes);
-		System.out.println("Size of collection : "+alcohol.size());
+		
 
 	}
 

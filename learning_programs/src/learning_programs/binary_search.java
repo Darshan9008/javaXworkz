@@ -10,7 +10,7 @@ public class binary_search {
 			
 			mid = (low+high)/2;
 			if(key==arr[mid]) {
-				System.out.println( "element found at the pos"+mid);
+				System.out.println( "element found at the pos :"+mid);
 				break;
 				
 			}
@@ -31,7 +31,7 @@ public class binary_search {
 		
 		
 		int arr[]= {20,30,40,50,60,70};
-		int key=60;
+		int key=70;
 		binarySearch(arr, key);
 		
 		 

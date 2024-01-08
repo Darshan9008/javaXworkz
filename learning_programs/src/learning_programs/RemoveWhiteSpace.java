@@ -8,7 +8,7 @@ public class RemoveWhiteSpace {
 		
 		String ref=str.replaceAll("\\s", "");
 		
-		System.out.println("removing white spaces"+ref);
+		System.out.println("removing white spaces  : "+ref);
 		
 		
 	}

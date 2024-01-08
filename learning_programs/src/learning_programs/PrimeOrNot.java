@@ -4,18 +4,22 @@ public class PrimeOrNot {
 
 	public static void main(String[] args) {
 
-		System.out.println("running main method");
-		int n=12;
-		boolean prime=true;
-		
-		
-		for(int i=2;i<n;i++) {// i should start from 2 because index 0 and 1 does not match for the prime numbers
-			if(n%i==0) {   // n should divide completely and reminder should be zero
-				prime=false;
-				break;
+		int num=4;
+		int count =0;
+		for(int i=1;i<=num;i++) {
+			if(num%i==0) {
+				count++;               //it is used to count the no of divisor and 1 and itself if it is 
+				                        //more than 2 then it is not a prime number
 			}
 		}
-		System.out.println("n is a prime number  "+prime);
+		if(count==2) {
+			System.out.println("it is a prime ");
+		}
+		else {
+			System.out.println("it not a prime number");
+		}
+		
+		
 	}
 
 }
